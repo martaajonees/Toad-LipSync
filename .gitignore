@@ -68,12 +68,13 @@ crashlytics-build.properties
 /LipSync/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
 
 # Temporary auto-generated Android Assets
-/LipSync/[Aa]ssets/[Ss]treamingAssets/aa.meta
-/LipSync/[Aa]ssets/[Ss]treamingAssets/aa/*
-/LipSync/Library/ShaderCache
-/LipSync/Library/PackageCache
-/LipSync/Library/Bee
-/LipSync/Library/Artifacts
-/LipSync/Library
-/LipSync/Library
-/LipSync/Library
+LipSync/[Aa]ssets/[Ss]treamingAssets/aa.meta
+LipSync/[Aa]ssets/[Ss]treamingAssets/aa/*
+LipSync/Library/ShaderCache
+LipSync/Library/PackageCache
+LipSync/Library/Bee
+LipSync/Library/Artifacts
+LipSync/Library
+LipSync/Library
+LipSync/Library
+LipSync/Library/SceneVisibilityState.asset
