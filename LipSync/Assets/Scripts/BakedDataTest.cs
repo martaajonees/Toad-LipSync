@@ -4,14 +4,14 @@ using uLipSync;
 public class BakedDataTest : MonoBehaviour
 {
     public GameObject lipSyncComp;
-    public BakedData data2;
+    public BakedData dataRight, dataLeft, dataFordward, dataBackward;
     private uLipSyncBakedDataPlayer bakedPlayer;
+
 
     // Start is called before the first frame update
     void Start()
     {
         bakedPlayer = lipSyncComp.GetComponent<uLipSyncBakedDataPlayer>();
-        bakedPlayer.Play();
     }
 
     // Update is called once per frame
@@ -19,8 +19,26 @@ public class BakedDataTest : MonoBehaviour
     {
         if (!bakedPlayer.isPlaying)
         {
-            bakedPlayer.bakedData = data2;
-            bakedPlayer.Play();
+            if(Input.GetKeyDown(KeyCode.RightArrow))
+            {
+                bakedPlayer.bakedData = dataRight;
+                bakedPlayer.Play();
+            }
+            else if(Input.GetKeyDown(KeyCode.LeftArrow))
+            {
+                bakedPlayer.bakedData = dataLeft;
+                bakedPlayer.Play();
+            }
+            else if(Input.GetKeyDown(KeyCode.UpArrow))
+            {
+                bakedPlayer.bakedData = dataFordward;
+                bakedPlayer.Play();
+            }
+            else if(Input.GetKeyDown(KeyCode.DownArrow))
+            {
+                bakedPlayer.bakedData = dataBackward;
+                bakedPlayer.Play();
+            }
         }
     }
 }
