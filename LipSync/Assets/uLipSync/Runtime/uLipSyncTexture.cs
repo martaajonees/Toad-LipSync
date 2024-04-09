@@ -130,6 +130,7 @@ public class uLipSyncTexture : MonoBehaviour
 
         foreach (var key in _phonemeHistory)
         {
+            Debug.Log(key);
             if (_phonemeCountTable.ContainsKey(key))
             {
                 ++_phonemeCountTable[key];

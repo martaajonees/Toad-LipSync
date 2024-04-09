@@ -587,7 +587,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 0a95e4d73a3a23c41aaa295c0f275fc0, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -686,10 +686,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lipSyncComp: {fileID: 660268846}
-  dataRight: {fileID: 11400000, guid: 474d19966ba1f426685a16e054c2d68b, type: 2}
-  dataLeft: {fileID: 11400000, guid: 140702b6911fe45f983a0111b95ee588, type: 2}
-  dataFordward: {fileID: 11400000, guid: eab2d0d8826fe40b2ac0fec54bdd9401, type: 2}
-  dataBackward: {fileID: 11400000, guid: 65d4bd7423a234afbb98f53627c681fb, type: 2}
+  dataRight: {fileID: 11400000, guid: a632ee42da9224f1c9bcf47911c80f02, type: 2}
+  dataLeft: {fileID: 11400000, guid: c18f770585d3943c2a6dd5dda09c23b8, type: 2}
+  dataFordward: {fileID: 11400000, guid: 51a261b7ba9a1475085514a71592920b, type: 2}
+  dataBackward: {fileID: 11400000, guid: 124ea7720b59e4b8c8b46455ecb852e9, type: 2}
 --- !u!114 &660268858
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -703,7 +703,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioSource: {fileID: 660268852}
-  bakedData: {fileID: 11400000, guid: eab2d0d8826fe40b2ac0fec54bdd9401, type: 2}
+  bakedData: {fileID: 11400000, guid: 378122b788ffb43b8b416fc3a37497f4, type: 2}
   playOnAwake: 0
   playAudioSource: 1
   volume: 1
